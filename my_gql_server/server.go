@@ -2,12 +2,12 @@ package main
 
 import (
 	"log"
+	"my_gql_server/graph"
 	"net/http"
 	"os"
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/saki-engineering/graphql-sample/graph"
 )
 
 const defaultPort = "8080"
