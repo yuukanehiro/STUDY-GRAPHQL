@@ -56,4 +56,3 @@ const server = new ApolloServer({
 server
     .listen()
     .then(({ url }) => console.log(`${url}でserverを起動中・・・`));
-
